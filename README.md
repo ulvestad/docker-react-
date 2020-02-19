@@ -4,9 +4,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Docker commands
 
-#### docker build -f Dockerfile -t docker-react-nav .
+#### `docker build -f Dockerfile -t docker-react-nav .`
 
-#### docker run --rm -d -p 3000:3000/tcp docker-react-nav:latest
+#### `docker run --rm -d -p 3000:3000/tcp docker-react-nav:latest`
 
 ## Available Scripts
 
