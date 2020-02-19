@@ -20,9 +20,9 @@ function Diverse() {
   return (
     <div className="scrollable-content">
       <h2>Git Repos</h2>
-      <div>
+      <div className="main-content-wrapper">
         {items.map( (item, index) => (
-        <div style={{backgroundColor:"#f2f2f2", width:"60vw", margin:"10px auto 10px auto", padding:"2px 0px 30px 0px"}} key={index}>
+        <div style={{backgroundColor:"#f2f2f2", margin:"10px auto 10px auto", padding:"2px 0px 30px 0px"}} key={index}>
           <h3>{item.name}</h3> 
           <span style={{fontWeight: "bold"}}>Description:</span><span> {item.description}</span>
           <br></br>
