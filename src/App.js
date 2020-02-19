@@ -4,6 +4,8 @@ import Nav from './Nav';
 import Hjem from './Hjem'
 import OmOss from './OmOss';
 import Diverse from './Diverse'
+import LoggInn from './LoggInn'
+import NotFound404 from './NotFound404'
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 
@@ -16,7 +18,9 @@ function App() {
       <Switch>
         <Route path="/om-oss" component={OmOss}/>
         <Route path="/diverse" component={Diverse}/>
-        <Route path="" component={Hjem}/>
+        <Route path="/logg-inn" component={LoggInn}/>
+        <Route path="/" exact component={Hjem}/>
+        <Route component={NotFound404}></Route>
       </Switch>
     </div>
     </Router>
