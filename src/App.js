@@ -1,25 +1,25 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Nav from './Nav';
+import Hjem from './Hjem'
+import OmOss from './OmOss';
+import Diverse from './Diverse'
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+
 
 function App() {
   return (
+    <Router>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet"></link>
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Nav/>
+      <Switch>
+        <Route path="/om-oss" component={OmOss}/>
+        <Route path="/diverse" component={Diverse}/>
+        <Route path="" component={Hjem}/>
+      </Switch>
     </div>
+    </Router>
   );
 }
 
