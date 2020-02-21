@@ -6,7 +6,7 @@ function Footer() {
     return (
        <footer style={{
            position: "absolute", minHeight:"8vh", width:"100vw", 
-           fontWeight:"600", fontSize:"14px", color:"#29233f", 
+           fontWeight:"600", fontSize:"14px", color:"#2F013F", 
            letterSpacing:0.5, display: "flex", alignItems: "center",
            justifyContent: "center", flexDirection: "column"
            }}>
