@@ -1,5 +1,5 @@
 # React Applicaiton with Docker
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+![screenshot](https://github.com/ulvestad/docker-react-applicaiton/blob/master/screenshots/screenshot.png)
 
 ## Docker commands
 
