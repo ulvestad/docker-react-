@@ -1,5 +1,7 @@
 # React Applicaiton with Docker
+<kbd>
 ![screenshot](https://github.com/ulvestad/docker-react-applicaiton/blob/master/screenshots/screenshot.png)
+</kbd>
 
 ## Docker commands
 
