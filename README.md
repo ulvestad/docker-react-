@@ -5,7 +5,8 @@
 
 #### `docker build -f Dockerfile -t docker-react-nav .`
 
-#### `docker run --rm -d -p 3000:3000/tcp docker-react-nav:latest`
+#### `docker run -d -p 3000:3000/tcp docker-react-nav:latest`
+(optinal --rm flag removes container after stop)
 
 ## Available Scripts
 
